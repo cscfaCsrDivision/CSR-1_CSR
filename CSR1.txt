@@ -17,6 +17,9 @@ Table of Contents
         2.2. CSR Creator
         2.3. CSR title
         2.4. CSR Abstract
+        2.5. CSR Table of content
+        2.6. CSR Extends
+        2.7. CSR Implement
 
 1. Implementation
     This CSR implement the RFC 2119
@@ -25,11 +28,11 @@ Table of Contents
 
     As default specification document the CSR MUST follow a common structure.
     
-    2.1 Line length restriction
+    2.1. Line length restriction
     
     The CSR documents MUST NOT exceed 120 characters line length.
     
-    2.2 CSR Creator
+    2.2. CSR Creator
     
     The CSR documents MUST specify the creator on first line. This creator MAY be physical person or any existing team.
 
@@ -37,17 +40,17 @@ Table of Contents
 quotes (single or double) and separated by coma. The contact elements MAY be wrote on several lines. The contacts 
 elements MUST be ordered by prefered destination.
 
-    2.3 CSR title
+    2.3. CSR title
     
     Following the CSR creator element, the CSR documents MUST define a title. This title MUST be composed of 
 'Specification - ', followed by the specification target.
 
-    2.4 CSR Abstract
+    2.4. CSR Abstract
     
     Following the CSR title, the CSR documents MUST define an 'Abstract' section that describe the specification 
 target.
     
-    2.5 CSR Table of content
+    2.5. CSR Table of content
     
     Following the CSR Abstract, the CSR document MUST offer a 'Table of Contents' section that specify the sections of
 the document. This Table of content MUST be indented by four (4) spaces at each sub-section level. The section levels
@@ -57,7 +60,7 @@ MUST be ordered and each sub-section MUST be sub-ordered and separated by dots i
 
     The section order naming SHOULD and by a dot and be followed by a space before the section title.
     
-    2.6 CSR Extends
+    2.6. CSR Extends
     
     The CSR document MAY specify another CSR to extends. In this case, the extended CSR MUST create a section named
 EXTENDED BY. The Extends section imply that the CSR document replace or enhance sections of the extended CSR.
@@ -65,8 +68,9 @@ EXTENDED BY. The Extends section imply that the CSR document replace or enhance 
     This extend section SHOULD NOT extend more than one (1) other CSR. In case of more than one CSR is extended by the
 document, the extended sections MUST be followed by the extended CSR title.
 
-    2.7 CSR Implement
+    2.7. CSR Implement
     
     The CSR document MAY specify any number of CSR or RFC to implement. In this case, the CSR document define a set of
 rules that the document import from another CSR or RFC. The reader of the document MUST consider that the implemented
 CSR or RFC are parts of the document.
+
