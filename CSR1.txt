@@ -1,0 +1,37 @@
+CSCFA Specification Reference Division 
+[
+	"cscfa-csr@division.cscfa.fr",
+	"cscfa-contact@cscfa.fr"
+]
+
+Specification - CSR
+
+Abstract
+
+	This document specify how the CSR documents must be used and created.
+	
+Table of Contents
+	1. Implementation
+	2. Document structure
+		2.1 Line length restriction
+		2.2 CSR Creator
+
+1. Implementation
+	This CSR implement the RFC 2119
+
+2. Document structure
+
+	As default specification document the CSR MUST follow a common structure.
+	
+	2.1 Line length restriction
+	
+	The CSR documents MUST NOT exceed 120 characters line length.
+	
+	2.2 CSR Creator
+	
+	The CSR documents MUST specify the creator on first line. This creator MAY be physical person or any existing team.
+
+	The CSR creators SHOULD specify a contact element into brackets. Each contact elements MUST be enclosed into 
+quotes (single or double) and separated by coma. The contact elements MAY be wrote on several lines. The contacts 
+elements MUST be ordered by prefered destination.
+
