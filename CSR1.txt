@@ -11,7 +11,7 @@ Abstract
     This document specify how the CSR documents must be used and created.
     
 Table of Contents
-1. Implementation
+    1. Implementation
     2. Document structure
         2.1. Line length restriction
         2.2. CSR Creator
@@ -20,6 +20,7 @@ Table of Contents
         2.5. CSR Table of content
         2.6. CSR Extends
         2.7. CSR Implement
+        2.8. CSR sections
 
 1. Implementation
     This CSR implement the RFC 2119
@@ -74,3 +75,6 @@ document, the extended sections MUST be followed by the extended CSR title.
 rules that the document import from another CSR or RFC. The reader of the document MUST consider that the implemented
 CSR or RFC are parts of the document.
 
+    2.8. CSR sections
+    
+    The CSR document SHOULD specify any number of sections.
